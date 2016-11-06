@@ -1,0 +1,12 @@
+\b19[0-9][0-9]|20[0-9][0-9]\b
+\b(FEB|MAR|APR|JUL|JUN|AUG|OCT|SEP|NOV|DEC|JANUARY|FEBRUARY|MARCH|APRIL|JULY|JUNE|AUGUST|OCTOBER|SEPTEMBER|NOVEMBER|DECEMBER)\b
+\b(\d{1,2})(/|-)\d{1,2}\b
+\b((JAN|MAY)\s\d+)|(in May)\b
+\b(([0-1]?[0-9])|([2][0-3])):([0-5]?[0-9])(?!:)\b
+\b(([0-1]?[0-9])|([2][0-3])):([0-5]?[0-9]):([0-5]?[0-9])\b
+\b(([0]?[0-9])|([1][1|2]))(:[0-5]?[0-9])?\s*[a|p]m\b
+\b(([0]?[0-9])|([1][1|2]))(:[0-5]?[0-9])?\s*([a|p]m)?\s*(HST|AKDT|PDT|MDT|CDT|EDT)\b
+\b(in )((the )|(this )|(that ))?(spring|summer|fall|autumn|winter)\b
+\b(now|currently|recently|current)|(at (present|(this time)|(this moment)|(this point)))\b
+\b((this )|(last )|(previous )|(preceding ))([\w\s]*\b)(year|quarter|month|day|morning|afternoon|evening|night|spring|summer|fall|autumn|winter)s?\b
+\b((next )|(following )|(succeeding )|(upcoming ))([\w\s]*\b)(year|quarter|month|day|morning|afternoon|evening|night|spring|summer|fall|autumn|winter)s?\b
